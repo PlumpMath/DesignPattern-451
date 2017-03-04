@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.14" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.learning.AbstractFactoryDesignPattern.UFOEnemyShipFactory" 
+    project="DesignPattern" file="/DesignPattern/src/com/learning/AbstractFactoryDesignPattern/UFOEnemyShipFactory.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="119" width="210" x="198" y="341"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.learning.AbstractFactoryDesignPattern.ESUFOEngine" project="DesignPattern" 
+    file="/DesignPattern/src/com/learning/AbstractFactoryDesignPattern/ESUFOEngine.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="101" width="210" x="1263" y="74"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.learning.AbstractFactoryDesignPattern.ESUFOBossGun" project="DesignPattern" 
+    file="/DesignPattern/src/com/learning/AbstractFactoryDesignPattern/ESUFOBossGun.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="101" width="210" x="513" y="74"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="4" language="java" name="com.learning.AbstractFactoryDesignPattern.EnemyShipFactory" 
+    project="DesignPattern" file="/DesignPattern/src/com/learning/AbstractFactoryDesignPattern/EnemyShipFactory.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="101" width="210" x="705" y="500"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="5" language="java" name="com.learning.AbstractFactoryDesignPattern.UFOEnemyShip" project="DesignPattern" 
+    file="/DesignPattern/src/com/learning/AbstractFactoryDesignPattern/UFOEnemyShip.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="101" width="225" x="956" y="341"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="6" language="java" name="com.learning.AbstractFactoryDesignPattern.ESWeapon" project="DesignPattern" 
+    file="/DesignPattern/src/com/learning/AbstractFactoryDesignPattern/ESWeapon.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="83" width="210" x="706" y="341"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="7" language="java" name="com.learning.AbstractFactoryDesignPattern.ESUFOGun" project="DesignPattern" 
+    file="/DesignPattern/src/com/learning/AbstractFactoryDesignPattern/ESUFOGun.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="101" width="210" x="763" y="74"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="com.learning.AbstractFactoryDesignPattern.UFOBossEnemyShip" 
+    project="DesignPattern" file="/DesignPattern/src/com/learning/AbstractFactoryDesignPattern/UFOBossEnemyShip.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="101" width="252" x="1221" y="341"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="com.learning.AbstractFactoryDesignPattern.EnemyShip" project="DesignPattern" 
+    file="/DesignPattern/src/com/learning/AbstractFactoryDesignPattern/EnemyShip.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="227" width="210" x="1013" y="74"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="com.learning.AbstractFactoryDesignPattern.ESUFOBossEngine" 
+    project="DesignPattern" file="/DesignPattern/src/com/learning/AbstractFactoryDesignPattern/ESUFOBossEngine.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="101" width="210" x="1513" y="74"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="com.learning.AbstractFactoryDesignPattern.UFOEnemyShipBuilding" 
+    project="DesignPattern" 
+    file="/DesignPattern/src/com/learning/AbstractFactoryDesignPattern/UFOEnemyShipBuilding.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="101" width="225" x="1763" y="341"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="com.learning.AbstractFactoryDesignPattern.EnemyShipBuilding" 
+    project="DesignPattern" file="/DesignPattern/src/com/learning/AbstractFactoryDesignPattern/EnemyShipBuilding.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="119" width="225" x="1763" y="74"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="13" language="java" name="com.learning.AbstractFactoryDesignPattern.ESEngine" project="DesignPattern" 
+    file="/DesignPattern/src/com/learning/AbstractFactoryDesignPattern/ESEngine.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="83" width="210" x="1513" y="341"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="14" language="java" name="com.learning.AbstractFactoryDesignPattern.UFOBossEnemyShipFactory" 
+    project="DesignPattern" 
+    file="/DesignPattern/src/com/learning/AbstractFactoryDesignPattern/UFOBossEnemyShipFactory.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="119" width="218" x="448" y="341"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <generalization id="15">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <association id="16">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="17" name="shipFactory"/>      
+      <multiplicity id="18" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="19">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="12"/>  
+  </generalization>  
+  <realization id="20">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <realization id="21">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="13"/>  
+  </realization>  
+  <generalization id="22">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <realization id="23">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <realization id="24">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="13"/>  
+  </realization>  
+  <association id="25">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="26" name="shipFactory"/>      
+      <multiplicity id="27" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="28">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="29" name="engine"/>      
+      <multiplicity id="30" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="31">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <association id="32">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="33" name="weapon"/>      
+      <multiplicity id="34" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="35">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
